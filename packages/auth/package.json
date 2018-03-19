@@ -1,0 +1,22 @@
+{
+	"name": "@delon/auth",
+	"version": "1.0.0-alpha.1",
+	"description": "@delon/auth",
+	"main": "./bundles/index.js",
+	"module": "./index.js",
+	"typings": "./index.d.ts",
+	"author": "cipchk<cipchk@qq.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cipchk/delon.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cipchk/delon/issues"
+	},
+	"homepage": "https://github.com/cipchk/delon#readme",
+	"keywords": ["angular auth", "ng auth", "ngx auth", "angular jwt", "ng jwt", "ngx jwt", "delon", "ng-alain", "alain", "antd", "ng-zorro-antd"],
+	"peerDependencies": {
+        "@delon/theme": "0.0.0-PLACEHOLDER"
+	}
+}

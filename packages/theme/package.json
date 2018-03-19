@@ -1,0 +1,23 @@
+{
+	"name": "@delon/theme",
+	"version": "1.0.0-alpha.1",
+	"description": "@delon/theme",
+	"main": "./bundles/index.js",
+	"module": "./index.js",
+	"typings": "./index.d.ts",
+	"author": "cipchk<cipchk@qq.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/cipchk/delon.git"
+	},
+	"bugs": {
+		"url": "https://github.com/cipchk/delon/issues"
+	},
+	"homepage": "https://github.com/cipchk/delon#readme",
+	"keywords": ["delon", "ng-alain", "alain", "antd", "ng-zorro-antd"],
+	"peerDependencies": {
+        "ng-zorro-antd": "ZORRO-0.0.0-PLACEHOLDER",
+        "@delon/acl": "0.0.0-PLACEHOLDER"
+	}
+}

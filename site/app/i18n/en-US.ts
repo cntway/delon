@@ -25,5 +25,5 @@ export const ENUS = {
     'app.component.refer.link': 'Using ABC Components Alone',
     'app.demo.copy': 'Copy code',
     'app.demo.copied': 'Copied!',
-    'app.demo.plnkr': 'Open in Plnkr'
+    'app.demo.stackblitz': 'Open in StackBlitz'
 };

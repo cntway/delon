@@ -34,6 +34,7 @@
       "./src/typings.d.ts"
     ],
     "exclude": [
+      "./.ng_build/test.ts",
       "./.ng_build/**/*.e2e.ts",
       "./.ng_build/**/*.spec.ts"
     ],

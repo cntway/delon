@@ -5,8 +5,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { NgZorroAntdModule } from 'ng-zorro-antd';
-import { NgZorroAntdExtraModule } from 'ng-zorro-antd-extra';
-import { NzTreeModule } from 'ng-tree-antd';
 
 import { AlainThemeModule } from '@delon/theme';
 import { AlainACLModule } from '@delon/acl';
@@ -15,8 +13,8 @@ import { AlainAuthModule } from '@delon/auth';
 import { DelonMockModule } from '@delon/mock';
 import { AppComponent } from './app.component';
 import { RoutesModule } from './routes/routes.module';
-import { LayoutComponent } from 'app/layout.component';
-import { PassportComponent } from 'app/passport.component';
+import { LayoutComponent } from './layout.component';
+import { PassportComponent } from './passport.component';
 import { DemoModalComponent } from './shared/components/modal/demo.component';
 
 // mock data
@@ -41,8 +39,6 @@ if (!environment.production) {
     HttpClientModule,
     BrowserAnimationsModule,
     NgZorroAntdModule.forRoot(),
-    NgZorroAntdExtraModule.forRoot(),
-    NzTreeModule,
     AlainThemeModule.forRoot(),
     AlainABCModule.forRoot(),
     AlainACLModule.forRoot(),

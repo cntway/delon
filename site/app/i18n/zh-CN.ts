@@ -25,5 +25,5 @@ export const ZHCN = {
     'app.component.refer.link': '独立使用 abc 组件',
     'app.demo.copy': '复制代码',
     'app.demo.copied': '复制成功',
-    'app.demo.plnkr': '在 Plnkr 中打开'
+    'app.demo.stackblitz': '在 StackBlitz 中打开'
 };
